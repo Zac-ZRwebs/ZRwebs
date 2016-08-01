@@ -1,0 +1,176 @@
+<html>
+<head>
+	<title>ZRwebs | Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900italic,700italic,700,600italic,600,400italic,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+	<link rel="shortcut icon" href="images/ico/favicon.png">
+	<link rel="stylesheet" href="css/framework.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika+Negative:400,600,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+				event.preventDefault();
+
+				var hash = this.hash;
+
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 1200, function(){
+
+					window.location.hash = hash;
+				});
+			}
+		});
+	});
+	$(document).ready(function(){
+		var scroll_start = 0;
+		var startchange = $('#top');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+				$('#navbar-item1').css('border-bottom', '.3em solid #f16d07');
+				$('#navbar-item1').css('padding-bottom', '.3em');
+				$('#navbar-item1').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item1').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item2').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item2').css('padding-bottom', '0em');
+				$('#navbar-item2').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item2').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item2').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item3').css('padding-bottom', '0em');
+				$('#navbar-item3').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item3').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item2').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item4').css('padding-bottom', '0em');
+				$('#navbar-item4').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item4').css('transition', 'padding-bottom 0.2s');
+			} else {
+			}
+		});
+	});
+	$(document).ready(function(){
+		var scroll_start = 0;
+		var startchange = $('#about');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+							$('#navbar-item2').css('border-bottom', '.3em solid #f16d07');
+				$('#navbar-item2').css('padding-bottom', '.3em');
+				$('#navbar-item2').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item2').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item1').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item1').css('padding-bottom', '0em');
+				$('#navbar-item1').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item1').css('transition', 'padding-bottom 0.2s');
+				$('#navbar-item3').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item3').css('padding-bottom', '0em');
+				$('#navbar-item3').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item3').css('transition', 'padding-bottom 0.2s');
+			} else {
+			}
+		});
+	});
+	$(document).ready(function(){
+		var scroll_start = 0;
+		var startchange = $('#designs');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+								$('#navbar-item1').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item1').css('padding-bottom', '0em');
+				$('#navbar-item1').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item1').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item2').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item2').css('padding-bottom', '0em');
+				$('#navbar-item2').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item2').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item3').css('border-bottom', '.3em solid #f16d07');
+				$('#navbar-item3').css('padding-bottom', '.3em');
+				$('#navbar-item3').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item3').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item4').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item4').css('padding-bottom', '0em');
+				$('#navbar-item4').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item4').css('transition', 'padding-bottom 0.2s');
+			} else {
+			}
+		});
+	});
+$(document).ready(function(){
+		var scroll_start = 0;
+		var startchange = $('#contact');
+		var offset = startchange.offset();
+		$(document).scroll(function() { 
+			scroll_start = $(this).scrollTop();
+			if(scroll_start > offset.top) {
+								$('#navbar-item1').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item1').css('padding-bottom', '0em');
+				$('#navbar-item1').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item1').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item2').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item2').css('padding-bottom', '0em');
+				$('#navbar-item2').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item2').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item3').css('border-bottom', '0em solid #f16d07');
+				$('#navbar-item3').css('padding-bottom', '0em');
+				$('#navbar-item3').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item3').css('transition', 'padding-bottom 0.2s');
+								$('#navbar-item4').css('border-bottom', '.3em solid #f16d07');
+				$('#navbar-item4').css('padding-bottom', '.3em');
+				$('#navbar-item4').css('transition', 'border-bottom 0.15s');
+				$('#navbar-item4').css('transition', 'padding-bottom 0.2s');
+			} else {
+			}
+		});
+	});
+	</script>
+</head>
+<div class="navbar" >
+	<nav class="nav">
+		<ul class="navbar-list">
+			<li class="navbar-item"><a id="navbar-item4" href="#contact" id="smooth">Contact Us</a></li>
+			<li class="navbar-item"><a id="navbar-item3" href="#designs" id="smooth">Designs</a></li>
+			<li class="navbar-item"><a id="navbar-item2" href="#about" id="smooth">About</a></li>
+			<li class="navbar-item"><a id="navbar-item1" href="#top" id="smooth" class="current">Home</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="top" id="top">
+	<img src="images/bg.png" alt="background image" class="background">
+	<h2 class="title">ZRwebs<small class="subtitle"><br>A new twist to website design</small></h2>
+</div>
+<div id="about"></div>
+<div class="divider-1">
+	<div class="title-div">
+	<h2 class="row-title">Who am I?</h2>
+	<br>
+	<hr>
+	<br>
+	<p class="para">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor <br><br>in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</div>
+</div>
+<img src="images/banner.png" alt="" class="divider-row">
+<div class="divider-2">
+	
+</div>
+</body>
+</html>
