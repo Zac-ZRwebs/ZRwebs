@@ -2,19 +2,20 @@
 ----
 ###Zac Ryan
 ----
-<br>
+
+<br />
 ##ZRwebs
 
 ###About ZRwebs
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-###Project source / files
-1. h
-2. 3
-3. h
-4. 3
-5. h
+### files
+1. index.html
+2. css/style.css
+3. images
+4. js/script.js
+5. font
 
 
 ##Privacy
