@@ -73,13 +73,11 @@ Navigation
 	padding-right: 70px;
 	padding-top: 35px;
 }
-a:hover {
+.navbar-item a:hover {
 	z-index: 1000;
 	text-decoration: none;
 	border-bottom: .3em solid #f16d07;
 	padding-bottom: .3em;
-	transition: border-bottom 0.15s;
-	transition: padding-bottom 0.2s;
 }
 .current {
 	border-bottom: .3em solid #f16d07;
@@ -117,6 +115,12 @@ Containers
 	position: relative;
 	margin-top: 40.4%;
 }
+.divider-row-2 {
+	width: 100%;
+	height: 30%;
+	background-color: #ddd;
+	position: relative;
+}
 .divider-2 {
 	width: 100%;
 	height: 75%;
@@ -126,7 +130,7 @@ Containers
 .divider-3 {
 	width: 100%;
 	height: 75%;
-	background-color: #111;
+	background-color: #000;
 	position: relative;
 
 }
@@ -153,6 +157,11 @@ Containers
 }
 .title-div {
 	width: 50%;
+	margin: auto;
+}
+.input {
+	width: 25%;
+	margin-bottom: 2%;
 	margin: auto;
 }
 /*
@@ -216,12 +225,12 @@ typography
 hr {
 	font-family: "Source Sans Pro";
 	font-weight: 100;
-	 display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #fff;
-    margin: 1em 0;
-    padding: 0; 
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #fff;
+	margin: 1em 0;
+	padding: 0; 
 }
 .para {
 	font-family: "Source Sans Pro";
@@ -232,6 +241,44 @@ hr {
 	line-height: 150%;
 	text-align: center;
 }
+.para-left {
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	color: #fff;
+	font-size: 24px; 
+	letter-spacing: 1%;
+	line-height: 150%;
+	text-align: left;
+}
+.para-right {
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	color: #fff;
+	font-size: 24px; 
+	letter-spacing: 1%;
+	line-height: 150%;
+	text-align: right;
+}
+.learnmore {
+	border: 2px solid #ddd;
+	padding: 2%;
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	color: #ddd;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #000;
+	position: absolute;
+    top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.learnmore:hover {
+	color: #000;
+	background-color: #ddd;
+	transition: background-color 1.5s;
+}
 /*
 ==============================================
 Images
@@ -240,11 +287,11 @@ Images
 .background {
 	z-index: -1;
 	width: 100%;
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-	filter: blur(3px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px); 
 	-webkit-animation: fadein 4s; 
 	-moz-animation: fadein 4s;
 	-ms-animation: fadein 4s; 
