@@ -160,9 +160,12 @@ Containers
 	margin: auto;
 }
 .input {
-	width: 25%;
+	width: 125%;
 	margin-bottom: 2%;
 	margin: auto;
+}
+.contact-right {
+	float: right;
 }
 /*
 ==============================================
@@ -278,6 +281,11 @@ hr {
 	color: #000;
 	background-color: #ddd;
 	transition: background-color 1.5s;
+}
+label {
+	color: #ddd;
+	font-family: "Source Sans Pro";
+	font-weight: 100;
 }
 /*
 ==============================================
