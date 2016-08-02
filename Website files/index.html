@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript">
@@ -29,7 +29,7 @@
 
 				$('html, body').animate({
 					scrollTop: $(hash).offset().top
-				}, 1600, function(){
+				}, 1400, function(){
 
 					window.location.hash = hash;
 				});
@@ -168,8 +168,8 @@ $(document).ready(function(){
 		</p>
 	</div>
 </div>
-<img src="images/banner.png" alt="" class="divider-row">
-<div class="divider-2" id="design">
+<img src="images/banner.png" alt="" id="design" class="divider-row">
+<div class="divider-2">
 	<div class="title-div">
 		<h2 class="row-title">Designs</h2>
 		<br>
@@ -178,7 +178,7 @@ $(document).ready(function(){
 		<a href="quote.html" class="learnmore">Request a Design Quote</a>
 	</div>
 </div>
-<img src="images/banner.png" alt="" class="divider-row-2">
+<img src="images/banner.png" id="contact" alt="" class="divider-row-2">
 <div class="divider-3" id="contact">
 	<div class="title-div">
 		<h2 class="row-title">Contact Me</h2>
@@ -190,9 +190,15 @@ $(document).ready(function(){
 			<br>
 			Email | zac@zrwebs.com
 			<br>
-			Facebook | zac.ryan.32
+			Skype | zac.ryan.32
 			<br>
 			GitHub | Zac-ZRwebs
+		</p>
+		<br>
+		<hr>
+			<br>
+			<p class="copywrite">
+			Copywrite &copy ZRwebs | 2016 | Design by Zac Ryan 2016
 		</p>
 	</div>
 </body>
